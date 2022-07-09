@@ -28,5 +28,5 @@ def pytest_configure(config):
         PYTEST_HEADER_MODULES.pop('Pandas', None)  # noqa
         PYTEST_HEADER_MODULES.pop('h5py', None)  # noqa
 
-        from photutils import __version__
-        TESTED_VERSIONS['photutils'] = __version__
+        from photutils_test import __version__
+        TESTED_VERSIONS['photutils_test'] = __version__

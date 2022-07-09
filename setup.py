@@ -77,6 +77,6 @@ import os  # noqa
 from setuptools import setup  # noqa
 from extension_helpers import get_extensions  # noqa
 
-setup(use_scm_version={'write_to': os.path.join('photutils', 'version.py'),
+setup(use_scm_version={'write_to': os.path.join('photutils_test', 'version.py'),
                        'write_to_template': VERSION_TEMPLATE},
       ext_modules=get_extensions())
