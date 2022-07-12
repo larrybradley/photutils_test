@@ -2,6 +2,8 @@ name: Wheel building
 
 on:
   push:
+    branches:
+      - '*'
     tags:
       - '*'
       - '!*dev*'
