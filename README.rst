@@ -1,6 +1,6 @@
-=========
-Photutils
-=========
+==============
+Photutils Test
+==============
 
 |PyPI Version| |Conda Version| |PyPI Downloads| |Astropy|
 
