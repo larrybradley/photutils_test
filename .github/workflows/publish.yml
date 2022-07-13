@@ -30,9 +30,6 @@ jobs:
         - cp38-manylinux_x86_64
         - cp39-manylinux_x86_64
         - cp310-manylinux_x86_64
-        - cp38-musllinux_x86_64
-        - cp39-musllinux_x86_64
-        - cp310-musllinux_x86_64
 
         # MacOS X wheels
         # Note that the arm64 wheels are not actually tested so we rely
